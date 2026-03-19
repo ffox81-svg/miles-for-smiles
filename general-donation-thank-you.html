@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>אקים ירושלים — תודה על תרומתך | AKIM Jerusalem — Thank You</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--blue-deep:#1B3A5C;--blue-mid:#2E6B9E;--blue-light:#5FA8D3;--blue-pale:#E3F0FA;--coral:#E8734A;--coral-light:#FDEEE8;--cream:#FAFBFD;--white:#FFF;--text-dark:#1A2638;--text-mid:#4A6278;--text-light:#7A95AA;--shadow-soft:0 4px 24px rgba(27,58,92,.08);--shadow-card:0 8px 40px rgba(27,58,92,.12);--radius:16px;--radius-sm:10px;--radius-lg:24px}*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Heebo',sans-serif;background:var(--cream);color:var(--text-dark);min-height:100vh;overflow-x:hidden}body[dir=ltr]{font-family:'DM Sans',sans-serif}.bg-atmosphere{position:fixed;top:0;left:0;right:0;bottom:0;z-index:0;pointer-events:none;overflow:hidden}.bg-atmosphere::before{content:'';position:absolute;top:-30%;right:-20%;width:800px;height:800px;background:radial-gradient(circle,rgba(95,168,211,.12) 0%,transparent 70%);border-radius:50%}.bg-atmosphere::after{content:'';position:absolute;bottom:-20%;left:-10%;width:600px;height:600px;background:radial-gradient(circle,rgba(232,115,74,.08) 0%,transparent 70%);border-radius:50%}.lang-toggle{position:fixed;top:20px;left:20px;z-index:100;display:flex;border-radius:30px;overflow:hidden;box-shadow:var(--shadow-soft);border:1.5px solid rgba(27,58,92,.1)}[dir=ltr] .lang-toggle{left:auto;right:20px}.lang-btn{padding:8px 18px;font-size:14px;font-weight:600;border:none;cursor:pointer;transition:all .3s ease;background:var(--white);color:var(--text-light);font-family:inherit}.lang-btn.active{background:var(--blue-deep);color:var(--white)}.lang-btn:hover:not(.active){background:var(--blue-pale);color:var(--blue-deep)}.container{position:relative;z-index:1;max-width:600px;margin:0 auto;padding:50px 20px 60px;min-height:100vh;display:flex;flex-direction:column;align-items:center}.logo-area{margin-bottom:32px;text-align:center;animation:fadeDown .6s ease-out}.logo-badge{display:inline-flex;align-items:center;gap:12px;padding:12px 24px;background:var(--white);border-radius:30px;box-shadow:var(--shadow-soft);border:1.5px solid rgba(27,58,92,.08)}.logo-badge img{height:36px;width:auto}.logo-text{font-weight:700;font-size:15px;color:var(--blue-deep);letter-spacing:-.3px}.heart-wrap{width:90px;height:90px;margin:0 auto 24px;position:relative}.heart-bg{width:90px;height:90px;background:var(--coral-light);border-radius:50%;display:flex;align-items:center;justify-content:center;animation:scalePop .5s ease-out .3s both}.heart-icon{font-size:40px;animation:heartBeat 1.2s ease-out .7s both}.thank-card{width:100%;background:var(--white);border-radius:var(--radius-lg);box-shadow:var(--shadow-card);padding:44px 36px;text-align:center;animation:fadeUp .7s ease-out .1s both;border:1px solid rgba(27,58,92,.06)}.thank-title{font-size:28px;font-weight:900;color:var(--blue-deep);margin-bottom:10px;line-height:1.3}[dir=ltr] .thank-title{font-family:'Playfair Display',serif;font-weight:700;font-size:30px}.thank-subtitle{font-size:17px;color:var(--text-mid);font-weight:400;margin-bottom:32px;line-height:1.6}.divider{width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--blue-light),transparent);margin:0 auto 28px}.impact{text-align:start;animation:fadeUp .7s ease-out .4s both}.impact-title{font-size:16px;font-weight:700;color:var(--text-dark);margin-bottom:16px}.impact-item{display:flex;align-items:flex-start;gap:12px;margin-bottom:12px;font-size:15px;color:var(--text-mid);line-height:1.6}.impact-icon{flex-shrink:0;width:28px;height:28px;background:var(--blue-pale);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;margin-top:1px}.receipt-note{margin-top:28px;padding:16px 20px;background:var(--coral-light);border-radius:var(--radius-sm);border-right:3px solid var(--coral);font-size:14px;color:var(--text-mid);line-height:1.6;text-align:start;animation:fadeUp .7s ease-out .5s both}[dir=ltr] .receipt-note{border-right:none;border-left:3px solid var(--coral)}.contact-card{width:100%;margin-top:24px;padding:20px 24px;background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow-soft);border:1px solid rgba(27,58,92,.06);animation:fadeUp .7s ease-out .6s both;display:flex;align-items:center;gap:14px}.contact-icon{flex-shrink:0;width:44px;height:44px;background:var(--blue-pale);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px}.contact-text{font-size:14px;color:var(--text-mid);line-height:1.6}.contact-text a{color:var(--blue-deep);font-weight:600;text-decoration:none;border-bottom:1px solid transparent;transition:border-color .2s}.contact-text a:hover{border-bottom-color:var(--blue-deep)}.footer{margin-top:32px;text-align:center;animation:fadeUp .7s ease-out .7s both}.footer-link{display:inline-block;padding:12px 28px;background:linear-gradient(135deg,var(--blue-deep) 0%,var(--blue-mid) 100%);color:var(--white);font-size:16px;font-weight:700;font-family:inherit;border:none;border-radius:60px;cursor:pointer;text-decoration:none;box-shadow:0 6px 24px rgba(27,58,92,.25);transition:all .3s cubic-bezier(.4,0,.2,1)}.footer-link:hover{transform:translateY(-2px);box-shadow:0 10px 36px rgba(27,58,92,.35)}.footer-credit{margin-top:16px;font-size:12px;color:var(--text-light)}@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}@keyframes fadeDown{from{opacity:0;transform:translateY(-15px)}to{opacity:1;transform:translateY(0)}}@keyframes scalePop{0%{transform:scale(0)}70%{transform:scale(1.1)}100%{transform:scale(1)}}@keyframes heartBeat{0%{transform:scale(.5);opacity:0}50%{transform:scale(1.2)}100%{transform:scale(1);opacity:1}}@media(max-width:480px){.container{padding:36px 16px 50px}.thank-card{padding:32px 20px}.thank-title{font-size:24px}[dir=ltr] .thank-title{font-size:26px}.contact-card{flex-direction:column;text-align:center}}.he-content{display:block}.en-content{display:none}[dir=ltr] .he-content{display:none}[dir=ltr] .en-content{display:block}
+</style>
+</head>
+<body>
+<div class="bg-atmosphere"></div>
+<div class="lang-toggle">
+  <button class="lang-btn active" id="btn-he" onclick="setLang('he')">עברית</button>
+  <button class="lang-btn" id="btn-en" onclick="setLang('en')">English</button>
+</div>
+<div class="container">
+  <div class="logo-area"><div class="logo-badge">
+    <span class="logo-text">
+      <span class="he-content">אקים ירושלים | מהמוגבלות להעצמה</span>
+      <span class="en-content">AKIM Jerusalem | From Disability to Possibility</span>
+    </span>
+  </div></div>
+  <div class="thank-card">
+    <div class="heart-wrap"><div class="heart-bg"><span class="heart-icon">❤️</span></div></div>
+    <div class="he-content">
+      <h1 class="thank-title">תרומתך התקבלה בהצלחה!</h1>
+      <p class="thank-subtitle">תודה רבה על תמיכתך באקים ירושלים.<br>התרומה שלך עושה שינוי אמיתי בחייהם של אנשים עם מוגבלויות שכליות והתפתחותיות.</p>
+    </div>
+    <div class="en-content">
+      <h1 class="thank-title">Your Donation Was Received!</h1>
+      <p class="thank-subtitle">Thank you for supporting AKIM Jerusalem.<br>Your generosity makes a real difference in the lives of people with intellectual and developmental disabilities.</p>
+    </div>
+    <div class="divider"></div>
+    <div class="impact">
+      <div class="he-content">
+        <div class="impact-title">לאן הולכת התרומה שלך?</div>
+        <div class="impact-item"><span class="impact-icon">🏠</span><span>מועדונים קהילתיים — מרחב חברתי, תעסוקה נתמכת ופעילויות שילוב</span></div>
+        <div class="impact-item"><span class="impact-icon">🎓</span><span>תוכניות העצמה — סדנאות, כישורי חיים והכשרה מקצועית</span></div>
+        <div class="impact-item"><span class="impact-icon">🤝</span><span>שירותי סינגור — ליווי אישי, ייעוץ משפחתי והגנה על זכויות</span></div>
+        <div class="impact-item"><span class="impact-icon">🌟</span><span>דיור בקהילה — מסגרות מגורים המאפשרות חיים עצמאיים ומכבדים</span></div>
+      </div>
+      <div class="en-content">
+        <div class="impact-title">Where does your donation go?</div>
+        <div class="impact-item"><span class="impact-icon">🏠</span><span>Community clubs — social spaces, supported employment, and inclusion activities</span></div>
+        <div class="impact-item"><span class="impact-icon">🎓</span><span>Empowerment programs — workshops, life skills, and professional training</span></div>
+        <div class="impact-item"><span class="impact-icon">🤝</span><span>Advocacy services — personal support, family counseling, and rights protection</span></div>
+        <div class="impact-item"><span class="impact-icon">🌟</span><span>Community housing — residential settings enabling independent, dignified living</span></div>
+      </div>
+    </div>
+    <div class="receipt-note">
+      <div class="he-content">🧾 קבלה על התרומה תישלח אליך במייל. אם בחרת בתרומה מוכרת לצורכי מס — הקבלה תכלול את הפרטים הרלוונטיים.</div>
+      <div class="en-content">🧾 A donation receipt will be sent to your email. If you chose a tax-deductible option (Israel, UK, or USA), the receipt will include the relevant details.</div>
+    </div>
+  </div>
+  <div class="contact-card">
+    <div class="contact-icon">💬</div>
+    <div class="contact-text">
+      <div class="he-content">שאלות? <a href="mailto:office@akim-jerusalem.org.il">כתבו לנו</a> או התקשרו: <a href="tel:+97226728000">02-672-8000</a></div>
+      <div class="en-content">Questions? <a href="mailto:office@akim-jerusalem.org.il">Email us</a> or call: <a href="tel:+97226728000">+972-2-672-8000</a></div>
+    </div>
+  </div>
+  <div class="footer">
+    <a href="https://www.akim-jerusalem.org.il" class="footer-link">
+      <span class="he-content">בקרו באתר אקים ירושלים</span>
+      <span class="en-content">Visit AKIM Jerusalem</span>
+    </a>
+    <div class="footer-credit">
+      <span class="he-content">© 2026 אקים ירושלים — עמותה לאנשים עם מוגבלויות שכליות והתפתחותיות</span>
+      <span class="en-content">© 2026 AKIM Jerusalem — Supporting people with intellectual and developmental disabilities</span>
+    </div>
+  </div>
+</div>
+<script>
+function setLang(lang){var h=document.documentElement,b=document.body,bh=document.getElementById('btn-he'),be=document.getElementById('btn-en');if(lang==='en'){h.setAttribute('lang','en');h.setAttribute('dir','ltr');b.setAttribute('dir','ltr');be.classList.add('active');bh.classList.remove('active')}else{h.setAttribute('lang','he');h.setAttribute('dir','rtl');b.setAttribute('dir','rtl');bh.classList.add('active');be.classList.remove('active')}}
+var p=new URLSearchParams(window.location.search);if(p.get('lang')==='en'){setLang('en')}
+</script>
+</body>
+</html>
